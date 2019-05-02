@@ -3,7 +3,7 @@ Pipenv simple skeleton
 
 A simple skeleton of pipenv project.
 
-This project includes settings below.
+This project includes some dev settings below.
 
 - Python 3.7
 - autopep8
@@ -20,11 +20,14 @@ Clone or copy this project.
 ### Commands
 
 ```sh
-# Install modules.
+# Install dev dependencies.
 pipenv install --dev
 
-# Run mypy with strict mode.
-pipenv run mypys
+# Static type check wiht mypy strict mode.
+pipenv run type
+
+# Lint module wih pylint.
+pipenv run lint
 ```
 
 Links

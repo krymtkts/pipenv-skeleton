@@ -15,4 +15,5 @@ mypy = "*"
 python_version = "3.7"
 
 [scripts]
-mypys = "mypy --strict ."
+type = "mypy --strict module"
+lint = "pylint module"
